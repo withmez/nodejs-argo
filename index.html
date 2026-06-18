@@ -1,117 +1,1347 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Phòng chống HIV/AIDS</title>
-        <style>
-            body {
-                  font-family: Arial, sans-serif;
-                        margin: 0;
-                              padding: 0;
-                                    background-color: #f4f4f9;
-                                          color: #333;
-                                              }
-                                                  header {
-                                                        background-color: #e53935;
-                                                              color: white;
-                                                                    text-align: center;
-                                                                          padding: 10px 0;
-                                                                              }
-                                                                                  .content {
-                                                                                        padding: 20px;
-                                                                                              text-align: center;
-                                                                                                  }
-                                                                                                      .content h2,
-                                                                                                          .content h3 {
-                                                                                                                color: #e53935;
-                                                                                                                    }
-                                                                                                                        .content p {
-                                                                                                                              font-size: 16px;
-                                                                                                                                    line-height: 1.6;
-                                                                                                                                          margin-bottom: 20px;
-                                                                                                                                              }
-                                                                                                                                                  .content ul {
-                                                                                                                                                        list-style-type: none;
-                                                                                                                                                              padding: 0;
-                                                                                                                                                                  }
-                                                                                                                                                                      .content ul li {
-                                                                                                                                                                            background: #fff;
-                                                                                                                                                                                  margin: 10px 0;
-                                                                                                                                                                                        padding: 15px;
-                                                                                                                                                                                              border-radius: 5px;
-                                                                                                                                                                                                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                                                                                                                                                                                                          text-align: left;
-                                                                                                                                                                                                              }
-                                                                                                                                                                                                                  button {
-                                                                                                                                                                                                                        background-color: #e53935;
-                                                                                                                                                                                                                              color: white;
-                                                                                                                                                                                                                                    padding: 10px 20px;
-                                                                                                                                                                                                                                          border: none;
-                                                                                                                                                                                                                                                border-radius: 5px;
-                                                                                                                                                                                                                                                      cursor: pointer;
-                                                                                                                                                                                                                                                            font-size: 16px;
-                                                                                                                                                                                                                                                                  margin: 8px;
-                                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                                          button:hover {
-                                                                                                                                                                                                                                                                                background-color: #d32f2f;
-                                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                                        footer {
-                                                                                                                                                                                                                                                                                              text-align: center;
-                                                                                                                                                                                                                                                                                                    padding: 10px;
-                                                                                                                                                                                                                                                                                                          background-color: #333;
-                                                                                                                                                                                                                                                                                                                color: white;
-                                                                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                                                                        @media (max-width: 768px) {
-                                                                                                                                                                                                                                                                                                                              .content {
-                                                                                                                                                                                                                                                                                                                                      padding: 15px;
-                                                                                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                                                                                  button {
-                                                                                                                                                                                                                                                                                                                                                          width: 90%;
-                                                                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                                                                                                                      </style>
-                                                                                                                                                                                                                                                                                                                                                                      </head>
-                                                                                                                                                                                                                                                                                                                                                                      <body>
-                                                                                                                                                                                                                                                                                                                                                                        <header>
-                                                                                                                                                                                                                                                                                                                                                                            <h1>Phòng chống HIV/AIDS</h1>
-                                                                                                                                                                                                                                                                                                                                                                              </header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraVoyage | Luxury Global Curated Journeys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0284c7;
+            --primary-hover: #0369a1;
+            --accent: #f59e0b;
+            --accent-bg: #fef3c7;
+            --dark: #0f172a;
+            --text-main: #334155;
+            --text-muted: #64748b;
+            --bg-light: #f8fafc;
+            --white: #ffffff;
+            --font-title: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+        }
 
-                                                                                                                                                                                                                                                                                                                                                                                <div class="content">
-                                                                                                                                                                                                                                                                                                                                                                                    <h2>Giới thiệu về HIV và AIDS</h2>
-                                                                                                                                                                                                                                                                                                                                                                                        <p>
-                                                                                                                                                                                                                                                                                                                                                                                              HIV (Human Immunodeficiency Virus) là virus làm suy yếu hệ thống miễn dịch của cơ thể. Nếu không được điều trị,
-                                                                                                                                                                                                                                                                                                                                                                                                    virus này có thể dẫn đến bệnh AIDS (Acquired Immunodeficiency Syndrome), gây suy giảm khả năng chống lại bệnh tật.
-                                                                                                                                                                                                                                                                                                                                                                                                        </p>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--font-body);
+            line-height: 1.7;
+            color: var(--text-main);
+            background-color: var(--bg-light);
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: var(--font-title);
+            color: var(--dark);
+            font-weight: 700;
+            line-height: 1.25;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
 
-                                                                                                                                                                                                                                                                                                                                                                                                            <h3>Các cách phòng chống HIV/AIDS:</h3>
-                                                                                                                                                                                                                                                                                                                                                                                                                <ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                      <li><strong>1. Quan hệ tình dục an toàn:</strong> Luôn sử dụng bao cao su khi quan hệ tình dục để giảm nguy cơ nhiễm HIV.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                            <li><strong>2. Không chia sẻ kim tiêm:</strong> Nếu bạn tiêm chích, đừng chia sẻ kim tiêm với người khác.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                  <li><strong>3. Kiểm tra sức khỏe định kỳ:</strong> Xét nghiệm HIV thường xuyên để phát hiện và điều trị kịp thời.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                        <li><strong>4. Tránh tiếp xúc với máu nhiễm HIV:</strong> Sử dụng đồ bảo hộ khi chăm sóc người bệnh.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 30px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+            gap: 8px;
+        }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                <h3>📌 Kiến thức nhỏ về phòng chống HIV/AIDS:</h3>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    <ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                          <li><strong>✅ HIV không lây qua tiếp xúc thông thường:</strong> Bắt tay, ôm, ăn uống chung không làm lây HIV.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li><strong>✅ Phụ nữ mang thai có thể phòng lây truyền sang con:</strong> Nếu điều trị đúng cách từ sớm.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <li><strong>✅ Có thể sống khỏe mạnh với HIV:</strong> Nhờ thuốc ARV và chế độ sống lành mạnh.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                          </ul>
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--white);
+            border: none;
+            box-shadow: 0 4px 14px rgba(2, 132, 199, 0.3);
+        }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <br />
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <button onclick="window.open('https://www.unaids.org/', '_blank')">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Truy cập UNAIDS Quốc tế
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </button>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <br />
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <button onclick="window.open('https://vaac.gov.vn/', '_blank')">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Truy cập Cục phòng chống HIV/AIDS Việt Nam
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </button>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(2, 132, 199, 0.4);
+        }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <footer>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <p>&copy; 2025 Phòng chống HIV/AIDS</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </footer>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </body>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+        .btn-secondary {
+            background-color: var(--white);
+            color: var(--dark);
+            border: 1px solid #e2e8f0;
+        }
+
+        .btn-secondary:hover {
+            background-color: #f1f5f9;
+            border-color: #cbd5e1;
+            transform: translateY(-2px);
+        }
+        
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        
+        .logo-icon {
+            background: linear-gradient(135deg, var(--primary), #38bdf8);
+            color: var(--white);
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            margin-right: 12px;
+            box-shadow: 0 4px 10px rgba(2, 132, 199, 0.2);
+        }
+        
+        .logo-text {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--dark);
+        }
+        
+        .logo-text span {
+            color: var(--primary);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        
+        .nav-links li {
+            margin-left: 28px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 15px;
+            transition: color 0.2s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .right-nav {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .lang-select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            background-color: var(--white);
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-main);
+            cursor: pointer;
+            outline: none;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 22px;
+            color: var(--dark);
+            cursor: pointer;
+        }
+        
+        .hero {
+            padding: 180px 0 100px;
+            background: radial-gradient(100% 100% at 50% 0%, rgba(2, 132, 199, 0.05) 0%, rgba(248, 250, 252, 0) 100%);
+            position: relative;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+        
+        .hero-text {
+            flex: 1.1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: rgba(2, 132, 199, 0.08);
+            color: var(--primary);
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        
+        .hero-text h1 {
+            font-size: 54px;
+            letter-spacing: -1.5px;
+            margin-bottom: 24px;
+        }
+        
+        .hero-text h1 span {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero-text p {
+            font-size: 18px;
+            color: var(--text-muted);
+            margin-bottom: 36px;
+            max-width: 580px;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+        }
+        
+        .hero-image {
+            flex: 0.9;
+            position: relative;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.12);
+            border: 1px solid rgba(255,255,255,0.7);
+        }
+
+        .stats-bar {
+            padding: 60px 0;
+            background-color: var(--white);
+            border-top: 1px solid #f1f5f9;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            text-align: center;
+            gap: 30px;
+        }
+
+        .stat-card h3 {
+            font-size: 40px;
+            color: var(--primary);
+            margin-bottom: 6px;
+        }
+
+        .stat-card p {
+            color: var(--text-muted);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+        
+        .section-title h2 {
+            font-size: 38px;
+            letter-spacing: -1px;
+            margin-bottom: 16px;
+        }
+        
+        .section-title p {
+            color: var(--text-muted);
+            font-size: 16px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .features {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+        }
+        
+        .feature-card {
+            background: var(--bg-light);
+            padding: 40px 32px;
+            border-radius: 20px;
+            border: 1px solid transparent;
+            transition: all 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-6px);
+            background: var(--white);
+            border-color: #e2e8f0;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature-icon {
+            background-color: rgba(2, 132, 199, 0.06);
+            color: var(--primary);
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 22px;
+        }
+        
+        .feature-card h3 {
+            font-size: 20px;
+            margin-bottom: 14px;
+        }
+        
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+        
+        .showcase {
+            padding: 100px 0;
+            background-color: var(--bg-light);
+        }
+
+        .tabs-nav {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+
+        .tab-btn {
+            background: var(--white);
+            border: 1px solid #e2e8f0;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 14px;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .tab-btn.active, .tab-btn:hover {
+            background-color: var(--dark);
+            color: var(--white);
+            border-color: var(--dark);
+        }
+
+        .tab-content {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+            display: none;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .tab-content.active {
+            display: flex;
+        }
+
+        .tab-text {
+            flex: 1;
+        }
+
+        .tab-text h3 {
+            font-size: 26px;
+            margin-bottom: 16px;
+        }
+
+        .tab-text ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .tab-text ul li {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+        }
+
+        .tab-text ul li i {
+            color: var(--primary);
+        }
+
+        .tab-image {
+            flex: 1.2;
+        }
+
+        .tab-image img {
+            max-width: 100%;
+            border-radius: 14px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+        }
+
+        .testimonials {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+        
+        .testimonial-slider {
+            max-width: 860px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .testimonial-box {
+            background: var(--bg-light);
+            padding: 50px 40px;
+            border-radius: 24px;
+            text-align: center;
+            position: relative;
+        }
+
+        .quote-icon {
+            font-size: 36px;
+            color: rgba(2, 132, 199, 0.15);
+            margin-bottom: 20px;
+        }
+        
+        .testimonial-text {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: var(--dark);
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+        }
+        
+        .author-avatar {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--white);
+            font-size: 18px;
+        }
+        
+        .author-info {
+            text-align: left;
+        }
+        
+        .author-info h4 {
+            font-size: 16px;
+            margin-bottom: 2px;
+        }
+        
+        .author-info p {
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+        
+        .pricing {
+            padding: 100px 0;
+            background-color: var(--bg-light);
+        }
+        
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            align-items: center;
+        }
+        
+        .pricing-card {
+            background: var(--white);
+            border-radius: 24px;
+            padding: 48px 36px;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.02);
+            border: 2px solid transparent;
+            position: relative;
+        }
+        
+        .pricing-card.featured {
+            border-color: var(--primary);
+            box-shadow: 0 20px 40px rgba(2, 132, 199, 0.08);
+        }
+        
+        .featured-badge {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, var(--primary), #38bdf8);
+            color: var(--white);
+            padding: 6px 20px;
+            border-radius: 30px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        
+        .plan-name {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .plan-desc {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        
+        .plan-price {
+            font-size: 44px;
+            font-family: var(--font-title);
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: baseline;
+        }
+        
+        .plan-price span {
+            font-size: 15px;
+            color: var(--text-muted);
+            font-weight: 400;
+            margin-left: 6px;
+        }
+        
+        .plan-features {
+            list-style: none;
+            margin-bottom: 40px;
+        }
+        
+        .plan-features li {
+            padding: 12px 0;
+            color: var(--text-main);
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .plan-features li i {
+            color: var(--primary);
+            font-size: 16px;
+        }
+
+        .pricing-card .btn {
+            width: 100%;
+        }
+        
+        .cta-section {
+            padding: 120px 0;
+            background-color: var(--dark);
+            text-align: center;
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(2, 132, 199, 0.15) 0%, rgba(0,0,0,0) 60%);
+            pointer-events: none;
+        }
+        
+        .cta-section h2 {
+            color: var(--white);
+            font-size: 42px;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+        
+        .cta-section p {
+            font-size: 18px;
+            max-width: 640px;
+            margin: 0 auto 40px;
+            color: #94a3b8;
+        }
+        
+        footer {
+            background-color: #0b0f19;
+            color: #94a3b8;
+            padding: 80px 0 30px;
+            font-size: 14px;
+            border-top: 1px solid #1e293b;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1.5fr repeat(3, 1fr);
+            gap: 50px;
+            margin-bottom: 60px;
+        }
+        
+        .footer-column h3 {
+            font-size: 16px;
+            color: var(--white);
+            margin-bottom: 24px;
+            font-weight: 600;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 14px;
+        }
+        
+        .footer-links a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #1e293b;
+            color: #64748b;
+        }
+        
+        .nav-links.mobile-active {
+            display: flex !important;
+            flex-direction: column;
+            position: absolute;
+            top: 75px;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .nav-links.mobile-active li {
+            margin: 12px 0;
+        }
+
+        @media (max-width: 1024px) {
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero-text p {
+                margin: 0 auto 36px;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 40px;
+            }
+            .tab-content {
+                flex-direction: column;
+                padding: 30px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .mobile-menu-btn {
+                display: block;
+            }
+            .hero-text h1 {
+                font-size: 38px;
+            }
+            .section-title h2 {
+                font-size: 30px;
+            }
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            header .btn-secondary {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-buttons {
+                flex-direction: column;
+            }
+            .hero-buttons .btn {
+                width: 100%;
+            }
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <div class="logo-icon"><i class="fas fa-compass"></i></div>
+                    <div class="logo-text">Aura<span>Voyage</span></div>
+                </a>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#destinations" id="nav-d">Destinations</a></li>
+                    <li><a href="#experiences" id="nav-e">Experiences</a></li>
+                    <li><a href="#reviews" id="nav-r">Reviews</a></li>
+                    <li><a href="#pricing" id="nav-p">Packages</a></li>
+                </ul>
+                
+                <div class="right-nav">
+                    <select class="lang-select" onchange="changeLanguage(this.value)">
+                        <option value="en">English</option>
+                        <option value="fr">Français (FR/CA)</option>
+                        <option value="th">ไทย</option>
+                        <option value="vn">Tiếng Việt</option>
+                    </select>
+                    <a href="#pricing" class="btn btn-secondary" style="padding: 10px 20px; font-size: 14px;" id="nav-book">Book Portal</a>
+                    <button class="mobile-menu-btn" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge" id="hero-b">
+                        <i class="fas fa-plane-departure"></i> Luxury Curated Escapes 2026
+                    </div>
+                    <h1 id="hero-title">Bespoke Journeys Across <span>Iconic Wonders</span></h1>
+                    <p id="hero-desc">Discover tailored premium expeditions across the United States, United Kingdom, France, Canada, Thailand, Vietnam, and Singapore. Handcrafted itineraries with five-star accommodations and expert guides.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" id="hero-btn1">Explore Packages <i class="fas fa-arrow-right"></i></button>
+                        <button class="btn btn-secondary" id="hero-btn2"><i class="fas fa-play-circle"></i> Virtual Tour</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Luxury Travel Escape">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>7</h3>
+                    <p id="stat-1">Iconic Countries Covered</p>
+                </div>
+                <div class="stat-card">
+                    <h3>5-Star</h3>
+                    <p id="stat-2">Premium Hotel Accommodations</p>
+                </div>
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p id="stat-3">Bespoke Guided Flexibility</p>
+                </div>
+                <div class="stat-card">
+                    <h3>15k+</h3>
+                    <p id="stat-4">Satisfied Luxury Adventurers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="destinations">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="f-section-title">Seven Curated Horizons</h2>
+                <p id="f-section-desc">Immerse yourself in vibrant megacities, ancient cultural temples, dramatic alpine peaks, and untouched tropical shores.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-monument"></i></div>
+                    <h3 id="f1-title">United States</h3>
+                    <p id="f1-desc">Explore neon skylines in New York City, vast natural canyons in Arizona, and the golden historic coastline of California.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-gopuram"></i></div>
+                    <h3 id="f2-title">United Kingdom</h3>
+                    <p id="f2-desc">Walk down majestic heritage paths in historic London town, royal castles in Scotland, and rural emerald valleys.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-archway"></i></div>
+                    <h3 id="f3-title">France</h3>
+                    <p id="f3-desc">Indulge in refined architecture throughout glamorous Paris, sun-drenched vineyards, and luxury coastal châteaux.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-mountain-sun"></i></div>
+                    <h3 id="f4-title">Canada</h3>
+                    <p id="f4-desc">Witness emerald glacial alpine lakes in Banff, dynamic cosmopolitan hubs, and breath-taking coastal fjords.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-toran"></i></div>
+                    <h3 id="f5-title">Thailand</h3>
+                    <p id="f5-desc">Experience gilded spiritual temples in Bangkok, turquoise maritime islands, and delicious night-market culinary arts.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-water"></i></div>
+                    <h3 id="f6-title">Vietnam</h3>
+                    <p id="f6-desc">Cruise past towering limestone pillars in Ha Long Bay, serene historical river towns, and rich organic heritages.</p>
+                </div>
+
+                <div class="feature-card" style="grid-column: span 1;">
+                    <div class="feature-icon"><i class="fas fa-tree-city"></i></div>
+                    <h3 id="f7-title">Singapore</h3>
+                    <p id="f7-desc">Unwind within highly sophisticated biological domes, Michelin-starred gastronomy, and futuristic cityscapes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase" id="experiences">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="s-section-title">Immersive Travel Modes</h2>
+                <p id="s-section-desc">Select an exclusive perspective designed to completely enrich your next global getaway.</p>
+            </div>
+
+            <ul class="tabs-nav">
+                <li><button class="tab-btn active" onclick="switchTab('urban', this)" id="tab-b1">1. Urban Elegance</button></li>
+                <li><button class="tab-btn" onclick="switchTab('nature', this)" id="tab-b2">2. Alpine & Coast</button></li>
+                <li><button class="tab-btn" onclick="switchTab('heritage', this)" id="tab-b3">3. Heritage & Temples</button></li>
+            </ul>
+
+            <div id="urban" class="tab-content active">
+                <div class="tab-text">
+                    <h3 id="tb-title">Metropolitan Glitz & Luxury Retails</h3>
+                    <p id="tb-desc">Venture into top-tier premium shopping streets in London, New York, and Singapore alongside specialized city curators.</p>
+                    <ul>
+                        <li><i class="fas fa-circle-check"></i> <span id="tb-li1">Private VIP admission keys to world-class art exhibits</span></li>
+                        <li><i class="fas fa-circle-check"></i> <span id="tb-li2">Pre-arranged fine dining skyline evening reservations</span></li>
+                    </ul>
+                </div>
+                <div class="tab-image">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Urban Luxury City">
+                </div>
+            </div>
+
+            <div id="nature" class="tab-content">
+                <div class="tab-text">
+                    <h3 id="td-title">Untouched Wonders & Emerald Waters</h3>
+                    <p id="td-desc">Explore majestic glaciers in the Canadian Rockies or board private eco-vessels drifting through exotic tropical islands.</p>
+                    <ul>
+                        <li><i class="fas fa-circle-check"></i> <span id="td-li1">Custom helicopter flight access over wilderness regions</span></li>
+                        <li><i class="fas fa-circle-check"></i> <span id="td-li2">Five-star premium safari lodge accommodations</span></li>
+                    </ul>
+                </div>
+                <div class="tab-image">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Coastal Nature">
+                </div>
+            </div>
+
+            <div id="heritage" class="tab-content">
+                <div class="tab-text">
+                    <h3 id="tm-title">Timeless Architectural Traditions</h3>
+                    <p id="tm-desc">Walk beside historians inside classical French palaces, spiritual Thai monuments, and pristine ancient Vietnamese preserves.</p>
+                    <ul>
+                        <li><i class="fas fa-circle-check"></i> <span id="tm-li1">Exclusive after-hours historical landmark access</span></li>
+                        <li><i class="fas fa-circle-check"></i> <span id="tm-li2">Authentic local culinary masterclass workshops</span></li>
+                    </ul>
+                </div>
+                <div class="tab-image">
+                    <img src="https://images.unsplash.com/photo-1528127269322-539801943592?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Heritage Temple">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="t-section-title">Voices From Discriminating Wanderers</h2>
+                <p id="t-section-desc">Read testimonials from travelers who demand seamless operational quality and premium hospitality.</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-box">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <div class="testimonial-text" id="t-quote">
+                        "The multi-country itinerary across Singapore and Thailand was executed with sublime flawless precision. Every single connection, luxury vehicle transfer, and custom boutique hotel room selection exceeded my highest expectations."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" id="t-avatar">E</div>
+                        <div class="author-info">
+                            <h4 id="t-author-name">Eleanor V.</h4>
+                            <p id="t-author-role">Global Connoisseur & Elite Explorer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="p-section-title">Curated Holiday Investment Tiers</h2>
+                <p id="p-section-desc">Transparent individual pricing brackets. Fully custom variations can be organized alongside personal advisors.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card featured">
+                    <div class="featured-badge" id="p1-badge">Best Value</div>
+                    <h3 class="plan-name" id="p1-name">Discovery Collection</h3>
+                    <p class="plan-desc" id="p1-desc">Curated 10-day immersive routes ideal for couples wanting balanced premium vacations.</p>
+                    <div class="plan-price" id="p1-price">$2,499<span>/ traveler</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span id="p1-f1">Selected 5-star boutique hotels</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p1-f2">Daily culinary dining programs included</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p1-f3">Regional ground transport & drivers</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p1-f4">Small group historical landmark tours</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p1-f5">24/7 Virtual travel assistant access</span></li>
+                    </ul>
+                    <button class="btn btn-primary" id="p1-btn">Select Journey</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3 class="plan-name" id="p2-name">Sovereign Prestige</h3>
+                    <p class="plan-desc" id="p2-desc">14-day fully personalized itineraries featuring private aviation and pristine stays.</p>
+                    <div class="plan-price" id="p2-price">$5,999<span>/ traveler</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span id="p2-f1">Ultra-luxury signature estate rooms</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p2-f2">Dedicated 1-on-1 expert personal guides</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p2-f3">Private chartered boat & aviation legs</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p2-f4">All-inclusive Michelin star catering</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p2-f5">Priority express customs border passes</span></li>
+                    </ul>
+                    <button class="btn btn-secondary" id="p2-btn">Secure Booking</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3 class="plan-name" id="p3-name">Infinity Bespoke</h3>
+                    <p class="plan-desc" id="p3-desc">Multi-country intercontinental dream programs meticulously crafted from a blank slate.</p>
+                    <div class="plan-price" id="p3-price">Custom<span>Quotation</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span id="p3-f1">Completely unconstrained travel paths</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p3-f2">Private mega-yacht or villa buyouts</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p3-f3">Exclusive private asset security details</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p3-f4">Custom logistical flight coordinates</span></li>
+                        <li><i class="fas fa-check"></i> <span id="p3-f5">Dedicated concierge deployment team</span></li>
+                    </ul>
+                    <button class="btn btn-secondary" id="p3-btn">Consult Architect</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2 id="cta-title">Begin Your Next Great Odyssey</h2>
+            <p id="cta-desc">Connect with an elite hospitality manager today to shape your ideal world expedition. Custom adjustments take moments.</p>
+            <button class="btn btn-primary" style="background-color: var(--white); color: var(--primary); box-shadow: 0 4px 14px rgba(255,255,255,0.2);" id="cta-btn">
+                Initiate Private Request <i class="fas fa-compass"></i>
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="#" class="logo" style="margin-bottom: 20px;">
+                        <div class="logo-icon"><i class="fas fa-compass"></i></div>
+                        <div class="logo-text" style="color:var(--white);">Aura<span>Voyage</span></div>
+                    </a>
+                    <p style="color: #64748b; margin-top: 15px;" id="foot-desc">Crafting highly sophisticated, luxury intercontinental escapes with strict attention to immaculate service.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="foot-c1">Destinations</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" id="f-lnk1">North America Hubs</a></li>
+                        <li><a href="#" id="f-lnk2">Western Europe Trails</a></li>
+                        <li><a href="#" id="f-lnk3">Tropical Asia Islands</a></li>
+                        <li><a href="#" id="f-lnk4">Sovereign City Escapes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="foot-c2">Concierge</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" id="f-lnk5">Travel Safety Updates</a></li>
+                        <li><a href="#" id="f-lnk6">Visa Assistance Portal</a></li>
+                        <li><a href="#" id="f-lnk7">Private Charter Network</a></li>
+                        <li><a href="#" id="f-lnk8">Luggage Handling Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="foot-c3">Agency</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" id="f-lnk9">Our Signature Heritage</a></li>
+                        <li><a href="#" id="f-lnk10">Sustainable Eco-Travel</a></li>
+                        <li><a href="#" id="f-lnk11">Press & Press Media</a></li>
+                        <li><a href="#" id="f-lnk12">Privacy & Agreements</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 AuraVoyage Inc. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Multi-language localization dictionary supporting native variations seamlessly
+        const translations = {
+            en: {
+                navD: "Destinations", navE: "Experiences", navR: "Reviews", navP: "Packages", book: "Book Portal",
+                heroB: "<i class='fas fa-plane-departure'></i> Luxury Curated Escapes 2026",
+                heroTitle: "Bespoke Journeys Across <span>Iconic Wonders</span>",
+                heroDesc: "Discover tailored premium expeditions across the United States, United Kingdom, France, Canada, Thailand, Vietnam, and Singapore. Handcrafted itineraries with five-star accommodations and expert guides.",
+                heroBtn1: "Explore Packages <i class='fas fa-arrow-right'></i>", heroBtn2: "<i class='fas fa-play-circle'></i> Virtual Tour",
+                stat1: "Iconic Countries Covered", stat2: "Premium Hotel Accommodations", stat3: "Bespoke Guided Flexibility", stat4: "Satisfied Luxury Adventurers",
+                fSecTitle: "Seven Curated Horizons", fSecDesc: "Immerse yourself in vibrant megacities, ancient cultural temples, dramatic alpine peaks, and untouched tropical shores.",
+                f1T: "United States", f1D: "Explore neon skylines in New York City, vast natural canyons in Arizona, and the golden historic coastline of California.",
+                f2T: "United Kingdom", f2D: "Walk down majestic heritage paths in historic London town, royal castles in Scotland, and rural emerald valleys.",
+                f3T: "France", f3D: "Indulge in refined architecture throughout glamorous Paris, sun-drenched vineyards, and luxury coastal châteaux.",
+                f4T: "Canada", f4D: "Witness emerald glacial alpine lakes in Banff, dynamic cosmopolitan hubs, and breath-taking coastal fjords.",
+                f5T: "Thailand", f5D: "Experience gilded spiritual temples in Bangkok, turquoise maritime islands, and delicious night-market culinary arts.",
+                f6T: "Vietnam", f6D: "Cruise past towering limestone pillars in Ha Long Bay, serene historical river towns, and rich organic heritages.",
+                f7T: "Singapore", f7D: "Unwind within highly sophisticated biological domes, Michelin-starred gastronomy, and futuristic cityscapes.",
+                sSecTitle: "Immersive Travel Modes", sSecDesc: "Select an exclusive perspective designed to completely enrich your next global getaway.",
+                tabB1: "1. Urban Elegance", tabB2: "2. Alpine & Coast", tabB3: "3. Heritage & Temples",
+                tbT: "Metropolitan Glitz & Luxury Retails", tbD: "Venture into top-tier premium shopping streets in London, New York, and Singapore alongside specialized city curators.",
+                tbL1: "Private VIP admission keys to world-class art exhibits", tbL2: "Pre-arranged fine dining skyline evening reservations",
+                tdT: "Untouched Wonders & Emerald Waters", tdD: "Explore majestic glaciers in the Canadian Rockies or board private eco-vessels drifting through exotic tropical islands.",
+                tdL1: "Custom helicopter flight access over wilderness regions", tdL2: "Five-star premium safari lodge accommodations",
+                tmT: "Timeless Architectural Traditions", tmD: "Walk beside historians inside classical French palaces, spiritual Thai monuments, and pristine ancient Vietnamese preserves.",
+                tmL1: "Exclusive after-hours historical landmark access", tmL2: "Authentic local culinary masterclass workshops",
+                tSecTitle: "Voices From Discriminating Wanderers", tSecDesc: "Read testimonials from travelers who demand seamless operational quality and premium hospitality.",
+                tQuote: "\"The multi-country itinerary across Singapore and Thailand was executed with sublime flawless precision. Every single connection, luxury vehicle transfer, and custom boutique hotel room selection exceeded my highest expectations.\"",
+                tAut: "Eleanor V.", tRol: "Global Connoisseur & Elite Explorer",
+                pSecTitle: "Curated Holiday Investment Tiers", pSecDesc: "Transparent individual pricing brackets. Fully custom variations can be organized alongside personal advisors.",
+                p1B: "Best Value", p1N: "Discovery Collection", p1D: "Curated 10-day immersive routes ideal for couples wanting balanced premium vacations.", p1P: "$2,499<span>/ traveler</span>",
+                p1F1: "Selected 5-star boutique hotels", p1F2: "Daily culinary dining programs included", p1F3: "Regional ground transport & drivers", p1F4: "Small group historical landmark tours", p1F5: "24/7 Virtual travel assistant access", p1Btn: "Select Journey",
+                p2N: "Sovereign Prestige", p2D: "14-day fully personalized itineraries featuring private aviation and pristine stays.", p2P: "$5,999<span>/ traveler</span>",
+                p2F1: "Ultra-luxury signature estate rooms", p2F2: "Dedicated 1-on-1 expert personal guides", p2F3: "Private chartered boat & aviation legs", p2F4: "All-inclusive Michelin star catering", p2F5: "Priority express customs border passes", p2Btn: "Secure Booking",
+                p3N: "Infinity Bespoke", p3D: "Multi-country intercontinental dream programs meticulously crafted from a blank slate.", p3P: "Custom<span>Quotation</span>",
+                p3F1: "Completely unconstrained travel paths", p3F2: "Private mega-yacht or villa buyouts", p3F3: "Exclusive private asset security details", p3F4: "Custom logistical flight coordinates", p3F5: "Dedicated concierge deployment team", p3Btn: "Consult Architect",
+                ctaTitle: "Begin Your Next Great Odyssey", ctaDesc: "Connect with an elite hospitality manager today to shape your ideal world expedition. Custom adjustments take moments.",
+                ctaBtn: "Initiate Private Request <i class='fas fa-compass'></i>",
+                footD: "Crafting highly sophisticated, luxury intercontinental escapes with strict attention to immaculate service.",
+                fc1: "Destinations", fc2: "Concierge", fc3: "Agency",
+                fl1: "North America Hubs", fl2: "Western Europe Trails", fl3: "Tropical Asia Islands", fl4: "Sovereign City Escapes",
+                fl5: "Travel Safety Updates", fl6: "Visa Assistance Portal", fl7: "Private Charter Network", fl8: "Luggage Handling Guide",
+                fl9: "Our Signature Heritage", fl10: "Sustainable Eco-Travel", fl11: "Press & Press Media", fl12: "Privacy & Agreements"
+            },
+            fr: {
+                navD: "Destinations", navE: "Expériences", navR: "Avis", navP: "Circuits", book: "Réservation",
+                heroB: "<i class='fas fa-plane-departure'></i> Escapades de Prestige 2026",
+                heroTitle: "Des Voyages Sur Mesure au Cœur des <span>Merveilles du Monde</span>",
+                heroDesc: "Découvrez des expéditions haut de gamme personnalisées à travers les États-Unis, le Royaume-Uni, la France, le Canada, la Thaïlande, le Vietnam et Singapour.",
+                heroBtn1: "Découvrir les Offres <i class='fas fa-arrow-right'></i>", heroBtn2: "<i class='fas fa-play-circle'></i> Visite Virtuelle",
+                stat1: "Pays Iconiques Couverts", stat2: "Hôtels Premium 5 Étoiles", stat3: "Flexibilité Totale des Guides", stat4: "Explorateurs Comblés",
+                fSecTitle: "Sept Horizons Uniques", fSecDesc: "Plongez au cœur de mégapoles vibrantes, de temples ancestraux, de sommets alpins et de côtes tropicales préservées.",
+                f1T: "États-Unis", f1D: "Explorez les gratte-ciels de New York, les canyons spectaculaires de l'Arizona et les côtes mythiques de la Californie.",
+                f2T: "Royaume-Uni", f2D: "Flânez dans les rues chargées d'histoire de Londres, visitez les châteaux royaux d'Écosse et arpentez les vallées verdoyantes.",
+                f3T: "France", f3D: "Laissez-vous séduire par le raffinement de Paris, les vignobles ensoleillés et les prestigieux châteaux côtiers.",
+                f4T: "Canada", f4D: "Admirez les lacs glaciaires émeraude de Banff, les métropoles cosmopolites et les fjords côtiers majestueux.",
+                f5T: "Thaïlande", f5D: "Visitez les temples sacrés dorés de Bangkok, les îles paradisiaques et découvrez l'art culinaire des marchés nocturnes.",
+                f6T: "Vietnam", f6D: "Naviguez au milieu des pitons rocheux de la baie de Ha Long, explorez les cités historiques et profitez d'un riche patrimoine.",
+                f7T: "Singapour", f7D: "Évadez-vous dans des dômes de verdure futuristes, savourez une gastronomie étoilée et admirez une architecture avant-gardiste.",
+                sSecTitle: "Modes de Voyage Immersifs", sSecDesc: "Sélectionnez une perspective exclusive conçue pour enrichir magnifiquement votre escapade.",
+                tabB1: "1. Élégance Urbaine", tabB2: "2. Sommets & Côtes", tabB3: "3. Temples & Patrimoine",
+                tbT: "Prestige Métropolitain & Boutiques de Luxe", tbD: "Arpentez les avenues de haute couture à Londres, New York et Singapour aux côtés de guides urbains experts.",
+                tbL1: "Accès VIP privé pour des vernissages et galeries d'art", tbL2: "Tables de haute gastronomie réservées en rooftop",
+                tdT: "Grands Espaces Sauvages & Eaux Émeraude", tdD: "Explorez les glaciers des Rocheuses canadiennes ou naviguez sur des yachts privés au cœur d'archipels tropicaux.",
+                tdL1: "Survols exclusifs en hélicoptère des parcs naturels", tdL2: "Lodges et éco-resorts de luxe 5 étoiles",
+                tmT: "Traditions Architecturales Intemporelles", tmD: "Découvrez l'histoire au plus près dans les palais français, les sanctuaires thaïlandais et les trésors préservés du Vietnam.",
+                tmL1: "Ouvertures de monuments hors des heures publiques", tmL2: "Ateliers de haute cuisine locale avec des chefs réputés",
+                tSecTitle: "Témoignages de Voyageurs Exigeants", tSecDesc: "Découvrez les retours de voyageurs appréciant une logistique irréprochable et un accueil d'élite.",
+                tQuote: "\"L'itinéraire combiné entre Singapour và la Thaïlande a été orchestré avec une précision absolue. Les transferts privés, le choix des hôtels et les excursions sur mesure ont surpassé toutes nos exigences.\"",
+                tAut: "Eleanor V.", tRol: "Esthète Nomade & Exploratrice Élite",
+                pSecTitle: "Grille d'Investissement Voyage", pSecDesc: "Tarifs individuels transparents. Des ajustements sur mesure peuvent être réalisés directement avec nos conseillers.",
+                p1B: "Idéal", p1N: "Collection Découverte", p1D: "Des itinéraires immersifs de 10 jours parfaits pour des escapades haut de gamme équilibrées.", p1P: "2 499 $<span>/ voyageur</span>",
+                p1F1: "Hôtels de charme et boutique-hôtels 5★", p1F2: "Programmes gastronomiques quotidiens inclus", p1F3: "Chauffeurs et transports privés au sol", p1F4: "Visites de monuments en petits groupes privés", p1F5: "Assistance conciergerie virtuelle 24h/24", p1Btn: "Choisir ce Circuit",
+                p2N: "Prestige Souverain", p2D: "Itinéraires de 14 jours personnalisés avec vols intérieurs privés et séjours d'exception.", p2P: "5 999 $<span>/ voyageur</span>",
+                p2F1: "Villas et suites d'exception signature", p2F2: "Guides experts dédiés 1-on-1", p2F3: "Liaisons maritimes et aériennes privées", p2F4: "Expériences culinaires étoilées incluses", p2F5: "Pass douaniers express prioritaires", p2Btn: "Réserver l'Expérience",
+                p3N: "Création Infinie", p3D: "Programmes intercontinentaux multi-pays entièrement conçus à partir d'une page blanche.", p3P: "Sur Mesure<span></span>",
+                p3F1: "Liberté totale sur le plan de vol et les étapes", p3F2: "Privatisation de super-yachts ou de domaines", p3F3: "Services de sécurité privée sur demande", p3F4: "Logistique et transferts héliportés sur mesure", p3F5: "Équipe de conciergerie dédiée à votre projet", p3Btn: "Contacter un Concepteur",
+                ctaTitle: "Donnez Vie à Votre Prochaine Odyssée", ctaDesc: "Échangez dès aujourd'hui avec un conseiller d'élite pour concevoir votre voyage idéal autour du globe.",
+                ctaBtn: "Formuler une Demande Privée <i class='fas fa-compass'></i>",
+                footD: "Créateur de voyages intercontinentaux d'exception, alliant luxe discret et service hautement personnalisé.",
+                fc1: "Destinations", fc2: "Conciergerie", fc3: "Agence",
+                fl1: "Hubs Nord-Américains", fl2: "Échappées Européennes", fl3: "Archipels Tropicaux", fl4: "Cités Souveraines",
+                fl5: "Infos Sécurité Voyage", fl6: "Portail Visas & Formalités", fl7: "Réseau de Jets Privés", fl8: "Gestion des Bagages Premium",
+                fl9: "Notre Histoire & Valeurs", fl10: "Éco-Tourisme Responsable", fl11: "Espace Presse & Médias", fl12: "Confidentialité & Mentions"
+            },
+            th: {
+                navD: "จุดหมายปลายทาง", navE: "ประสบการณ์", navR: "รีวิว", navP: "แพ็กเกจ", book: "จองการเดินทาง",
+                heroB: "<i class='fas fa-plane-departure'></i> ทริปท่องเที่ยวสุดหรูระดับพรีเมียม 2026",
+                heroTitle: "การเดินทางที่ออกแบบมาเฉพาะเพื่อคุณ <span>สู่ดินแดนมหัศจรรย์</span>",
+                heroDesc: "ค้นพบการเดินทางท่องเที่ยวสุดหรูที่ได้รับการคัดสรรอย่างพิถีพิถัน ทั้งในสหรัฐอเมริกา สหราชอาณาจักร ฝรั่งเศส แคนาดา ไทย เวียดนาม และสิงคโปร์ พักผ่อนในโรงแรมระดับ 5 ดาวพร้อมมัคคุเทศก์ผู้เชี่ยวชาญ",
+                heroBtn1: "สำรวจแพ็กเกจ <i class='fas fa-arrow-right'></i>", heroBtn2: "<i class='fas fa-play-circle'></i> วิดีโอทัวร์เสมือนจริง",
+                stat1: "ประเทศยอดนิยมที่ให้บริการ", stat2: "ที่พักระดับพเรียม 5 ดาว", stat3: "มัคคุเทศก์ส่วนตัวที่ยืดหยุ่น", stat4: "นักเดินทางที่ประทับใจ",
+                fSecTitle: "7 เส้นทางขอบฟ้าที่คัดสรรมาเพื่อคุณ", fSecDesc: "สัมผัสความศิวิไลซ์ของเมืองหลวงอันน่าตื่นตาตื่นใจ วัฒนธรรมวัดวาอารามโบราณ เทือกเขาแอลป์ และชายหาดเขตร้อน",
+                f1T: "สหรัฐอเมริกา", f1D: "ตื่นตากับเส้นขอบฟ้าและแสงสีในนิวยอร์ก ชมความยิ่งใหญ่ของแกรนด์แคนยอนในรัฐแอริโซนา และชายฝั่งประวัติศาสตร์แคลิฟอร์เนีย",
+                f2T: "สหราชอาณาจักร", f2D: "ก้าวเข้าสู่เส้นทางมรดกอันสง่างามในลอนดอน ชมปราสาทราชวังเก่าแก่ในสกอตแลนด์ และหุบเขาอันเขียวขอุ่ม",
+                f3T: "ฝรั่งเศส", f3D: "ดื่มด่ำกับสถาปัตยกรรมชั้นสูงทั่วปารีสอัน มีเสน่ห์ เยี่ยมชมไร่องุ่นที่อาบไปด้วยแสงแดด และปราสาทริมชายฝั่งสุดหรู",
+                f4T: "แคนาดา", f4D: "ชมความงามของทะเลสาบน้ำแข็งสีมรกตในอุทยานแห่งชาติแบมฟ์ เมืองหลวงระดับโลก และฟยอร์ดริมชายฝั่งอันตระการตา",
+                f5T: "ประเทศไทย", f5D: "สัมผัสความงดงามของวัดวาอารามสีทองในกรุงเทพฯ พักผ่อนบนเกาะสวรรค์ทะเลสีคราม และเพลิดเพลินกับศิลปะอาหารรสเลิศ",
+                f6T: "เวียดนาม", f6D: "ล่องเรือชมแท่งหินปูนตระหง่านในอ่าวฮาลอง เยี่ยมชมเมืองโบราณริมน้ำ และมรดกทางวัฒนธรรมอันหลากหลาย",
+                f7T: "สิงคโปร์", f7D: "พักผ่อนในโดมพฤกษศาสตร์แห่งอนาคต ลิ้มลองอาหารระดับมิชลินสตาร์ และชมทัศนียภาพของเมืองที่ทันสมัย",
+                sSecTitle: "รูปแบบการเดินทางที่เหนือระดับ", sSecDesc: "เลือกมุมมองการเดินทางสุดพิเศษที่ออกแบบมาเพื่อเติมเต็มการพักผ่อนระดับโลกของคุณ",
+                tabB1: "1. ความหรูหราในเมืองใหญ่", tabB2: "2. เทือกเขาและชายฝั่ง", tabB3: "3. มรดกและวัฒนธรรม",
+                tbT: "ความศิวิไลซ์ของเมืองใหญ่และการช้อปปิ้งระดับพรีเมียม", tbD: "เพลิดเพลินกับการช้อปปิ้งในย่านแฟชั่นชั้นนำของลอนดอน นิวยอร์ก และสิงคโปร์ พร้อมผู้เชี่ยวชาญการนำเที่ยวเมืองหลวง",
+                tbL1: "บัตรเข้าชม VIP ส่วนตัวสำหรับนิทรรศการศิลปะระดับโลก", tbL2: "การจองดินเนอร์สุดหรูบนรูฟท็อปวิวเส้นขอบฟ้าที่จัดเตรียมไว้ล่วงหน้า",
+                tdT: "สิ่งมหัศจรรย์ทางธรรมชาติและผืนน้ำสีมรกต", tdD: "สำรวจธารน้ำแข็งอันยิ่งใหญ่ในเทือกเขาแคเนเดียนร็อกกี หรือล่องเรือยอชท์ส่วนตัวชมเกาะเขตร้อนอันสวยงาม",
+                tdL1: "บริการเฮลิคอปเตอร์ส่วนตัวเหนือน่านฟ้าอุทยานแห่งชาติ", tdL2: "ที่พักสไตล์ซาฟารีลอดจ์ระดับ 5 ดาวสุดพรีเมียม",
+                tmT: "สถาปัตยกรรมและประเพณีที่เหนือกาลเวลา", tmD: "เดินเคียงข้างนักประวัติศาสตร์ในพระราชวังฝรั่งเศส โบราณสถานของไทย และย่านประวัติศาสตร์ที่ได้รับการอนุรักษ์ในเวียดนาม",
+                tmL1: "สิทธิพิเศษในการเข้าชมโบราณสถานนอกเวลาทำการปกติ", tmL2: "เวิร์กชอปมาสเตอร์คลาสสอนทำอาหารท้องถิ่นต้นตำรับ",
+                tSecTitle: "เสียงสะท้อนจากนักเดินทางผู้มีรสนิยม", tSecDesc: "อ่านรีวิวจากนักเดินทางที่ต้องการการจัดการที่ไร้ที่ติและการต้อนรับระดับพรีเมียม",
+                tQuote: "\"การเดินทางหลายประเทศในสิงคโปร์และไทยดำเนินไปอย่างราบรื่นและแม่นยำอย่างน่าอัศจรรย์ การต่อรถ รถรับส่งสุดหรู และการเลือกห้องพักในโรงแรมบูติกล้วนเกินความคาดหมายสูงสุดของฉัน\"",
+                tAut: "Eleanor V.", tRol: "ผู้เชี่ยวชาญการเดินทางระดับโลกและนักสำรวจระดับ VIP",
+                pSecTitle: "ระดับการลงทุนสำหรับการพักผ่อนที่คัดสรรมาอย่างดี", pSecDesc: "ราคาโปร่งใสสำหรับนักเดินทางแต่ละท่าน สามารถปรับแต่งรูปแบบเฉพาะร่วมกับที่ปรึกษาส่วนตัวได้",
+                p1B: "คุ้มค่าที่สุด", p1N: "คอลเลกชันการค้นพบ", p1D: "เส้นทางการเดินทาง 10 วัน เหมาะสำหรับคู่รักที่ต้องการการพักผ่อนระดับพรีเมียมที่สมดุล", p1P: "$2,499<span>/ ท่าน</span>",
+                p1F1: "โรงแรมบูติกระดับ 5 ดาวที่ได้รับการคัดสรร", p1F2: "รวมโปรแกรมอาหารค่ำรสเลิศประจำวัน", p1F3: "บริการรถรับส่งและคนขับรถส่วนตัวในพื้นที่", p1F4: "ทัวร์ชมโบราณสถานสำคัญสำหรับกลุ่มขนาดเล็ก", p1F5: "บริการผู้ช่วยการเดินทางเสมือนจริงตลอด 24 ชั่วโมง", p1Btn: "เลือกการเดินทางนี้",
+                p2N: "เอกสิทธิ์ระดับสูงสุด", p2D: "แผนการเดินทาง 14 วันที่ปรับแต่งได้ตามความต้องการ พร้อมการเดินทางด้วยเครื่องบินส่วนตัวและการเข้าพักสุดหรู", p2P: "$5,999<span>/ ท่าน</span>",
+                p2F1: "ห้องพักระดับวิลล่าและเอสเตทสุดหรูที่เป็นเอกลักษณ์", p2F2: "มัคคุเทศก์ผู้เชี่ยวชาญส่วนตัวดูแลแบบ 1 ต่อ 1", p2F3: "เรือยอชท์และเที่ยวบินเช่าเหมาลำส่วนตัว", p2F4: "รวมบริการอาหารระดับมิชลินสตาร์ทุกมื้อ", p2F5: "ช่องทางผ่านด่านศุลกากรด่วนพิเศษลำดับแรก", p2Btn: "จองแพ็กเกจนี้",
+                p3N: "ดีไซน์ไร้ขีดจำกัด", p3D: "โปรแกรมการเดินทางข้ามทวีปหลายประเทศที่สร้างสรรค์ขึ้นใหม่ทั้งหมดตามความฝันของคุณ", p3P: "ราคาประเมินตามจริง<span></span>",
+                p3F1: "เส้นทางการเดินทางที่ไม่มีข้อจำกัดใดๆ", p3F2: "การเช่าเหมาลำซูเปอร์ยอชท์หรือวิลล่าส่วนตัว", p3F3: "บริการทีมรักษาความปลอดภัยส่วนตัวระดับพิเศษ", p3F4: "การประสานงานเที่ยวบินและการขนส่งส่วนตัว", p3F5: "ทีมงานดูแลและจัดการการเดินทางโดยเฉพาะ", p3Btn: "ปรึกษานักออกแบบการเดินทาง",
+                ctaTitle: "เริ่มต้นการเดินทางครั้งยิ่งใหญ่ของคุณ", ctaDesc: "ติดต่อกับผู้จัดการฝ่ายต้อนรับระดับสูงของเราวันนี้เพื่อออกแบบการเดินทางรอบโลกในอุดมคติของคุณ การปรับแต่งใช้เวลาเพียงไม่นาน",
+                ctaBtn: "ส่งคำขอส่วนตัว <i class='fas fa-compass'></i>",
+                footD: "สร้างสรรค์การเดินทางข้ามทวีปสุดหรูหรา ทันสมัย ด้วยความใส่ใจในบริการที่ยอดเยี่ยมและไร้ที่ติ",
+                fc1: "จุดหมายปลายทาง", fc2: "บริการผู้ดูแลส่วนตัว", fc3: "เกี่ยวกับเรา",
+                fl1: "ศูนย์กลางอเมริกาเหนือ", fl2: "เส้นทางยุโรปตะวันตก", fl3: "หมู่เกาะเขตร้อนแห่งเอเชีย", fl4: "เมืองหลวงแห่งเอกสิทธิ์",
+                fl5: "ข้อมูลอัปเดตความปลอดภัย", fl6: "ศูนย์บริการข้อมูลวีซ่า", fl7: "เครือข่ายเครื่องบินเช่าเหมาลำ", fl8: "คู่มือการจัดการสัมภาระพรีเมียม",
+                fl9: "ประวัติและมรดกของเรา", fl10: "การท่องเที่ยวเชิงอนุรักษ์", fl11: "ข่าวสารและสื่อมวลชน", fl12: "นโยบายความเป็นส่วนตัว"
+            },
+            vn: {
+                navD: "Điểm Đến", navE: "Trải Nghiệm", navR: "Đánh Giá", navP: "Gói Tour", book: "Cổng Đặt Tour",
+                heroB: "<i class='fas fa-plane-departure'></i> Hành Trình Sang Trọng Độc Quyền 2026",
+                heroTitle: "Hành Trình Thiết Kế Riêng Đến <span>Kỳ Quan Kỳ Vĩ</span>",
+                heroDesc: "Khám phá các chuyến viễn du cao cấp được thiết kế riêng tại Hoa Kỳ, Vương quốc Anh, Pháp, Canada, Thái Lan, Việt Nam và Singapore. Lịch trình độc quyền với lưu trú 5 sao và hướng dẫn viên chuyên nghiệp.",
+                heroBtn1: "Khám Phá Gói Tour <i class='fas fa-arrow-right'></i>", heroBtn2: "<i class='fas fa-play-circle'></i> Tour Ảo 360°",
+                stat1: "Quốc Gia Danh Tiếng", stat2: "Khách Sạn & Resort 5 Sao", stat3: "Hướng Dẫn Viên Linh Hoạt", stat4: "Khách Hàng Thượng Lưu Hài Lòng",
+                fSecTitle: "Bảy Chân Trời Tuyệt Mỹ", fSecDesc: "Hòa mình vào những siêu đô thị sôi động, đền đài văn hóa cổ kính, đỉnh núi Alps kỳ vĩ và những bờ biển nhiệt đới nguyên sơ.",
+                f1T: "Hoa Kỳ", f1D: "Khám phá đường chân trời rực rỡ tại New York, các hẻm núi tự nhiên hùng vĩ ở Arizona và bờ biển lịch sử vàng California.",
+                f2T: "Vương Quốc Anh", f2D: "Sải bước trên những lối đi di sản vương giả tại London cổ kính, các lâu đài hoàng gia ở Scotland và thung lũng ngọc bích.",
+                f3T: "Pháp", f3D: "Đắm mình vào kiến trúc tinh tế khắp Paris hoa lệ, những vườn nho ngập nắng và các lâu đài ven biển sang trọng.",
+                f4T: "Canada", f4D: "Chiêm ngưỡng hồ băng ngọc bích tại Banff, các trung tâm vũ trụ năng động và vịnh biển ven bờ ngoạn mục.",
+                f5T: "Thái Lan", f5D: "Trải nghiệm những ngôi đền linh thiêng dát vàng tại Bangkok, các hòn đảo ngọc xanh ngắt và nghệ thuật ẩm thực chợ đêm.",
+                f6T: "Việt Nam", f6D: "Du thuyền thưởng ngoạn vịnh Hạ Long kỳ vĩ, phố cổ Hội An thanh bình bên dòng sông hoài và di sản văn hóa đậm đà.",
+                f7T: "Singapore", f7D: "Thư giãn trong những mái vòm sinh học hiện đại, ẩm thực đạt sao Michelin và cảnh quan thành phố tương lai.",
+                sSecTitle: "Hình Thức Du Lịch Thượng Lưu", sSecDesc: "Lựa chọn phong cách độc quyền được thiết kế để làm phong phú thêm chuyến đi toàn cầu của bạn.",
+                tabB1: "1. Đô Thị Thượng Lưu", tabB2: "2. Núi Cao & Biển Ngọc", tabB3: "3. Di Sản & Đền Đài",
+                tbT: "Sự Hào Nhoáng Của Siêu Đô Thị & Mua Sắm Cao Cấp", tbD: "Hành trình mua sắm hàng hiệu tại các đại lộ sầm uất ở London, New York và Singapore cùng chuyên gia phong cách.",
+                tbL1: "Vé VIP độc quyền tham quan các triển lãm nghệ thuật thế giới", tbL2: "Đặt chỗ trước tại các nhà hàng fine dining view ngắm toàn cảnh thành phố",
+                tdT: "Kỳ Quan Thiên Nhiên & Vùng Nước Biển Ngọc", tdD: "Khám phá những rặng sông băng hùng vĩ tại dãy Rockies Canada hoặc lên du thuyền sinh thái riêng lướt qua các đảo nhiệt đới.",
+                tdL1: "Thưởng ngoạn bằng trực thăng riêng trên các vùng hoang dã", tdL2: "Lưu trú tại các resort safari cao cấp tiêu chuẩn 5 sao",
+                tmT: "Những Giá Trị Kiến Trúc Vượt Thời Gian", tmD: "Đồng hành cùng các nhà lịch sử khám phá cung điện Pháp cổ kính, đền đài Thái Lan tráng lệ và các khu bảo tồn di sản Việt Nam.",
+                tmL1: "Đặc quyền tham quan các địa danh lịch sử ngoài giờ mở cửa", tmL2: "Lớp học làm chủ ẩm thực bản địa cùng các nghệ nhân",
+                tSecTitle: "Lời Nhận Xét Từ Những Vị Khách Thông Thái", tSecDesc: "Đọc đánh giá từ những du khách yêu cầu khắt khe về chất lượng vận hành dịch vụ liền mạch và lòng hiếu khách cao cấp.",
+                tQuote: "\"Hành trình liên quốc gia qua Singapore và Việt Nam đã được thực hiện với sự chính xác tuyệt vời. Mọi kết nối trung chuyển, xe đưa đón hạng sang và phòng khách sạn boutique đều vượt qua kỳ vọng của tôi.\"",
+                tAut: "Eleanor V.", tRol: "Nhà Thẩm Định Phong Cách Sống & Nhà Khám Phá Thượng Lưu",
+                pSecTitle: "Các Gói Đầu Tư Nghỉ Dưỡng Cao Cấp", pSecDesc: "Bảng giá minh bạch cho mỗi du khách. Các tùy chỉnh riêng biệt hoàn toàn có thể được thiết lập cùng cố vấn cá nhân.",
+                p1B: "Giá Trị Tốt Nhất", p1N: "Bộ Sưu Tập Khám Phá", p1D: "Lịch trình trải nghiệm 10 ngày được thiết kế hoàn hảo cho các cặp đôi muốn kỳ nghỉ cao cấp cân bằng.", p1P: "$2,499<span>/ du khách</span>",
+                p1F1: "Lựa chọn các khách sạn boutique 5 sao tinh tế", p1F2: "Bao gồm chương trình ẩm thực cao cấp hàng ngày", p1F3: "Xe đưa đón và tài xế riêng tại điểm đến", p1F4: "Tour tham quan địa danh theo nhóm nhỏ biệt lập", p1F5: "Trợ lý du lịch ảo hỗ trợ liên tục 24/7", p1Btn: "Lựa Chọn Hành Trình",
+                p2N: "Đẳng Cấp Hoàng Gia", p2D: "Lịch trình 14 ngày cá nhân hóa toàn diện với hàng không tư nhân và lưu trú siêu sang.", p2P: "$5,999<span>/ du khách</span>",
+                p2F1: "Phòng hạng sang tại các biệt thự estate biểu tượng", p2F2: "Hướng dẫn viên chuyên gia riêng biệt hỗ trợ 1-kèm-1", p2F3: "Các chặng bay và du thuyền thuê trọn gói riêng", p2F4: "Bao gồm toàn bộ ẩm thực nhà hàng sao Michelin", p2F5: "Thẻ thông quan hải quan nhanh ưu tiên đặc biệt", p2Btn: "Đặt Tour Độc Quyền",
+                p3N: "Thiết Kế Vô Cực", p3D: "Chương trình mơ ước liên lục địa đa quốc gia được chế tác tỉ mỉ từ một trang giấy trắng.", p3P: "Báo Giá Riêng<span></span>",
+                p3F1: "Tự do hoàn toàn không giới hạn tuyến đường bay", p3F2: "Thuê trọn gói siêu du thuyền hoặc villa biệt lập", p3F3: "Đội ngũ an ninh bảo vệ tài sản riêng chuyên biệt", p3F4: "Điều phối các chặng bay và vận chuyển theo yêu cầu", p3F5: "Đội ngũ chuyên gia concierges triển khai riêng", p3Btn: "Liên Hệ Kiến Trúc Sư",
+                ctaTitle: "Bắt Đầu Cuộc Viễn Du Vĩ Đại Tiếp Theo", ctaDesc: "Kết nối với quản lý quản trị khách sạn cao cấp ngay hôm nay để phác thảo chuyến đi vòng quanh thế giới lý tưởng của bạn.",
+                ctaBtn: "Gửi Yêu Cầu Riêng Tư <i class='fas fa-compass'></i>",
+                footD: "Chế tác những chuyến trốn bản thân liên lục địa sang trọng, tinh tế với sự chú ý tuyệt đối đến dịch vụ hoàn hảo.",
+                fc1: "Điểm Đến", fc2: "Dịch Vụ Concierge", fc3: "Thương Hiệu",
+                fl1: "Trung Tâm Bắc Mỹ", fl2: "Hành Trình Tây Âu", fl3: "Hòn Đảo Nhiệt Đới Á Châu", fl4: "Đô Thị Đặc Quyền",
+                fl5: "Cập Nhật An Toàn Du Lịch", fl6: "Cổng Hỗ Trợ Thị Thực (Visa)", fl7: "Mạng Lưới Chuyên Cơ Riêng", fl8: "Hướng Dẫn Hành Lý Cao Cấp",
+                fl9: "Hành Trình Di Sản Của Chúng Tôi", fl10: "Du Lịch Sinh Thái Bền Vững", fl11: "Trung Tâm Báo Chí & Truyền Thông", fl12: "Bảo Mật & Thỏa Thuận"
+            }
+        };
+
+        function changeLanguage(lang) {
+            const data = translations[lang];
+            
+            document.getElementById('nav-d').innerText = data.navD;
+            document.getElementById('nav-e').innerText = data.navE;
+            document.getElementById('nav-r').innerText = data.navR;
+            document.getElementById('nav-p').innerText = data.navP;
+            document.getElementById('nav-book').innerText = data.book;
+
+            document.getElementById('hero-b').innerHTML = data.heroB;
+            document.getElementById('hero-title').innerHTML = data.heroTitle;
+            document.getElementById('hero-desc').innerText = data.heroDesc;
+            document.getElementById('hero-btn1').innerHTML = data.heroBtn1;
+            document.getElementById('hero-btn2').innerHTML = data.heroBtn2;
+
+            document.getElementById('stat-1').innerText = data.stat1;
+            document.getElementById('stat-2').innerText = data.stat2;
+            document.getElementById('stat-3').innerText = data.stat3;
+            document.getElementById('stat-4').innerText = data.stat4;
+
+            document.getElementById('f-section-title').innerText = data.fSecTitle;
+            document.getElementById('f-section-desc').innerText = data.fSecDesc;
+            document.getElementById('f1-title').innerText = data.f1T; document.getElementById('f1-desc').innerText = data.f1D;
+            document.getElementById('f2-title').innerText = data.f2T; document.getElementById('f2-desc').innerText = data.f2D;
+            document.getElementById('f3-title').innerText = data.f3T; document.getElementById('f3-desc').innerText = data.f3D;
+            document.getElementById('f4-title').innerText = data.f4T; document.getElementById('f4-desc').innerText = data.f4D;
+            document.getElementById('f5-title').innerText = data.f5T; document.getElementById('f5-desc').innerText = data.f5D;
+            document.getElementById('f6-title').innerText = data.f6T; document.getElementById('f6-desc').innerText = data.f6D;
+            document.getElementById('f7-title').innerText = data.f7T; document.getElementById('f7-desc').innerText = data.f7D;
+
+            document.getElementById('s-section-title').innerText = data.sSecTitle;
+            document.getElementById('s-section-desc').innerText = data.sSecDesc;
+            document.getElementById('tab-b1').innerText = data.tabB1;
+            document.getElementById('tab-b2').innerText = data.tabB2;
+            document.getElementById('tab-b3').innerText = data.tabB3;
+            
+            document.getElementById('tb-title').innerText = data.tbT; document.getElementById('tb-desc').innerText = data.tbD;
+            document.getElementById('tb-li1').innerText = data.tbL1; document.getElementById('tb-li2').innerText = data.tbL2;
+            document.getElementById('td-title').innerText = data.tdT; document.getElementById('td-desc').innerText = data.tdD;
+            document.getElementById('td-li1').innerText = data.tdL1; document.getElementById('td-li2').innerText = data.tdL2;
+            document.getElementById('tm-title').innerText = data.tmT; document.getElementById('tm-desc').innerText = data.tmD;
+            document.getElementById('tm-li1').innerText = data.tmL1; document.getElementById('tm-li2').innerText = data.tmL2;
+
+            document.getElementById('t-section-title').innerText = data.tSecTitle;
+            document.getElementById('t-section-desc').innerText = data.tSecDesc;
+            document.getElementById('t-quote').innerText = data.tQuote;
+            document.getElementById('t-avatar').innerText = data.tAut.charAt(0);
+            document.getElementById('t-author-name').innerText = data.tAut;
+            document.getElementById('t-author-role').innerText = data.tRol;
+
+            document.getElementById('p-section-title').innerText = data.pSecTitle;
+            document.getElementById('p-section-desc').innerText = data.pSecDesc;
+            
+            document.getElementById('p1-badge').innerText = data.p1B;
+            document.getElementById('p1-name').innerText = data.p1N;
+            document.getElementById('p1-desc').innerText = data.p1D;
+            document.getElementById('p1-price').innerHTML = data.p1P;
+            document.getElementById('p1-f1').innerText = data.p1F1;
+            document.getElementById('p1-f2').innerText = data.p1F2;
+            document.getElementById('p1-f3').innerText = data.p1F3;
+            document.getElementById('p1-f4').innerText = data.p1F4;
+            document.getElementById('p1-f5').innerText = data.p1F5;
+            document.getElementById('p1-btn').innerText = data.p1Btn;
+
+            document.getElementById('p2-name').innerText = data.p2N;
+            document.getElementById('p2-desc').innerText = data.p2D;
+            document.getElementById('p2-price').innerHTML = data.p2P;
+            document.getElementById('p2-f1').innerText = data.p2F1;
+            document.getElementById('p2-f2').innerText = data.p2F2;
+            document.getElementById('p2-f3').innerText = data.p2F3;
+            document.getElementById('p2-f4').innerText = data.p2F4;
+            document.getElementById('p2-f5').innerText = data.p2F5;
+            document.getElementById('p2-btn').innerText = data.p2Btn;
+
+            document.getElementById('p3-name').innerText = data.p3N;
+            document.getElementById('p3-desc').innerText = data.p3D;
+            document.getElementById('p3-price').innerHTML = data.p3P;
+            document.getElementById('p3-f1').innerText = data.p3F1;
+            document.getElementById('p3-f2').innerText = data.p3F2;
+            document.getElementById('p3-f3').innerText = data.p3F3;
+            document.getElementById('p3-f4').innerText = data.p3F4;
+            document.getElementById('p3-f5').innerText = data.p3F5;
+            document.getElementById('p3-btn').innerText = data.p3Btn;
+
+            document.getElementById('cta-title').innerText = data.ctaTitle;
+            document.getElementById('cta-desc').innerText = data.ctaDesc;
+            document.getElementById('cta-btn').innerHTML = data.ctaBtn;
+            
+            document.getElementById('foot-desc').innerText = data.footD;
+            document.getElementById('foot-c1').innerText = data.fc1;
+            document.getElementById('foot-c2').innerText = data.fc2;
+            document.getElementById('foot-c3').innerText = data.fc3;
+            
+            document.getElementById('f-lnk1').innerText = data.fl1; document.getElementById('f-lnk2').innerText = data.fl2;
+            document.getElementById('f-lnk3').innerText = data.fl3; document.getElementById('f-lnk4').innerText = data.fl4;
+            document.getElementById('f-lnk5').innerText = data.fl5; document.getElementById('f-lnk6').innerText = data.fl6;
+            document.getElementById('f-lnk7').innerText = data.fl7; document.getElementById('f-lnk8').innerText = data.fl8;
+            document.getElementById('f-lnk9').innerText = data.fl9; document.getElementById('f-lnk10').innerText = data.fl10;
+            document.getElementById('f-lnk11').innerText = data.fl11; document.getElementById('f-lnk12').innerText = data.fl12;
+            
+            document.documentElement.lang = lang;
+        }
+
+        function switchTab(tabId, buttonElement) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            buttonElement.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('mobile-active');
+        }
+    </script>
+</body>
+</html>
